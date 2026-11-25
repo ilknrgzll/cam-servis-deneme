@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Giyotin cam sisteminin şematik çizimi">
+  <rect width="800" height="600" fill="#E9EEEE"/>
+  <rect y="470" width="800" height="130" fill="#D9DFDF"/>
+  <!-- zemin çizgisi -->
+  <line x1="60" y1="470" x2="740" y2="470" stroke="#9AA5A7" stroke-width="2"/>
+  <!-- dış kasa -->
+  <rect x="110" y="90" width="580" height="380" fill="none" stroke="#2B2F33" stroke-width="14"/>
+  <!-- dikey ara kayıtlar -->
+  <line x1="303" y1="90" x2="303" y2="470" stroke="#2B2F33" stroke-width="10"/>
+  <line x1="497" y1="90" x2="497" y2="470" stroke="#2B2F33" stroke-width="10"/>
+  <!-- üst cam paneller (sabit) -->
+  <g fill="#BFD3D6" opacity=".9">
+    <rect x="117" y="97" width="181" height="118"/><rect x="308" y="97" width="184" height="118"/><rect x="502" y="97" width="181" height="118"/>
+  </g>
+  <!-- orta cam paneller (yukarı kaldırılmış) -->
+  <g fill="#A9C4C8" stroke="#2B2F33" stroke-width="6">
+    <rect x="117" y="150" width="181" height="110"/><rect x="308" y="150" width="184" height="110"/><rect x="502" y="150" width="181" height="110"/>
+  </g>
+  <!-- alt cam paneller -->
+  <g fill="#C8DADC" stroke="#2B2F33" stroke-width="6">
+    <rect x="117" y="356" width="181" height="107"/><rect x="308" y="356" width="184" height="107"/><rect x="502" y="356" width="181" height="107"/>
+  </g>
+  <!-- açık alan yansıma -->
+  <g stroke="#ffffff" stroke-width="5" opacity=".7">
+    <line x1="140" y1="245" x2="190" y2="175"/><line x1="330" y1="245" x2="380" y2="175"/><line x1="525" y1="245" x2="575" y2="175"/>
+  </g>
+  <!-- hareket okları -->
+  <g fill="none" stroke="#1F5F6B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="400" y1="290" x2="400" y2="335"/>
+    <polyline points="384,306 400,290 416,306"/>
+    <polyline points="384,319 400,335 416,319"/>
+  </g>
+  <!-- kumanda -->
+  <g transform="translate(720 300)">
+    <rect x="-22" y="0" width="44" height="86" rx="10" fill="#2B2F33"/>
+    <circle cx="0" cy="22" r="7" fill="#E9EEEE"/>
+    <circle cx="0" cy="46" r="7" fill="#E9EEEE"/>
+    <path d="M-14 -16 a20 20 0 0 1 28 0 M-24 -28 a34 34 0 0 1 48 0" fill="none" stroke="#1F5F6B" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

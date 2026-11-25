@@ -1,0 +1,11 @@
+# Orijinal fotoğraflar (sitede kullanılmıyor; optimize edilmiş kopyaları images/ altında)
+WhatsApp Image *.jpeg
+*.jpeg
+
+# Yerel geliştirme ayarları
+.claude/
+
+# Sistem dosyaları
+Thumbs.db
+desktop.ini
+.DS_Store
