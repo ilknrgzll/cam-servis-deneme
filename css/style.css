@@ -448,3 +448,13 @@ h2 { font-size: clamp(2.3rem, 1.4rem + 3vw, 3.7rem); line-height: 1.05; }
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity .9s var(--ease), transform .9s var(--ease); }
 .reveal.is-in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; } }
+
+/* Hizmetler bölümü: tanıtım bölümünden ayrışan taş tonlu zemin */
+.section-services {
+  background-color: #D6E4E5; /* açık petrol mavisi */
+  background-image: linear-gradient(180deg, #CFDFE1 0%, #DFEAEA 100%);
+}
+.section-services .service-links { border-top-color: rgba(31,95,107,.22); }
+.section-services .section-lead, .section-services .service-desc { color: #3E4A50; }
+.section-services .eyebrow { color: var(--petrol-dark); }
+.section-services .link-teklif .arrow { color: var(--petrol-dark); }
